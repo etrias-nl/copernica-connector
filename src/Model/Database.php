@@ -35,7 +35,7 @@ class Database
     }
 
     /**
-     * @return CollectionsResponse|Collection[]
+     * @return Collection[]|CollectionsResponse
      */
     public function getCollections(): CollectionsResponse
     {

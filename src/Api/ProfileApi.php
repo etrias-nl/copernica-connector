@@ -73,7 +73,6 @@ class ProfileApi extends AbstractApi
         $this->client->delete($uri);
     }
 
-
     /**
      * @return SubProfile[]
      */

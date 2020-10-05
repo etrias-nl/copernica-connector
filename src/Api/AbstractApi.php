@@ -70,11 +70,11 @@ abstract class AbstractApi
         foreach ($query as $key => $value) {
             if (null === $value) {
                 unset($query[$key]);
-            } elseif (is_bool($value)) {
+            } elseif (\is_bool($value)) {
                 $query[$key] = $value ? 'true' : 'false';
             } elseif ($value instanceof \DateTimeInterface) {
                 $query[$key] = $value->format('Y-m-d H:m:s');
-            } elseif (is_array($value)) {
+            } elseif (\is_array($value)) {
                 foreach ($value as $subKey => $subValue) {
                     $query[$key.'['.$subKey.']'] = $subValue;
                 }

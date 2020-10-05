@@ -11,7 +11,6 @@ class ProfileSubProfilesRequest
     protected ?string $profileId = null;
     protected ?string $collectionId = null;
 
-
     public function getProfileId(): ?string
     {
         return $this->profileId;

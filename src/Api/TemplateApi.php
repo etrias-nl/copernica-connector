@@ -14,7 +14,7 @@ class TemplateApi extends AbstractApi
     /**
      * @return Template[]
      */
-    public function all(TemplatesRequest $request = null)
+    public function all(?TemplatesRequest $request = null)
     {
         if (null === $request) {
             $request = new TemplatesRequest();

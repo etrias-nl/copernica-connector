@@ -14,7 +14,7 @@ class DatabaseApi extends AbstractApi
     /**
      * @return Database[]
      */
-    public function all(DatabasesRequest $request = null)
+    public function all(?DatabasesRequest $request = null)
     {
         if (null === $request) {
             $request = new DatabasesRequest();

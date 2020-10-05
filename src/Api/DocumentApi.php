@@ -14,7 +14,7 @@ class DocumentApi extends AbstractApi
     /**
      * @return Document[]
      */
-    public function all(DocumentsRequest $request = null): iterable
+    public function all(?DocumentsRequest $request = null): iterable
     {
         if (null === $request) {
             $request = new DocumentsRequest();
