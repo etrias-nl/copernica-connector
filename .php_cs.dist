@@ -35,5 +35,8 @@ return Config::create()
             ->append([
                 __FILE__,
             ])
+            ->notPath([
+                'Api/Legacy/',
+            ])
     )
 ;
