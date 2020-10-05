@@ -1,0 +1,14 @@
+Etrias\CopernicaConnector\Model\SubProfilesResponse:
+  access_type: public_method
+  exclusion_policy: ALL
+  properties:
+    start:
+      type: int
+    limit:
+      type: int
+    count:
+      type: int
+    total:
+      type: int
+    data:
+      type: array<Etrias\CopernicaConnector\Model\SubProfile>

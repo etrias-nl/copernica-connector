@@ -1,0 +1,9 @@
+Etrias\CopernicaConnector\Model\Document:
+  access_type: public_method
+  exclusion_policy: ALL
+  properties:
+    id:
+      type: string
+    templateId:
+      type: string
+      serialized_name: template

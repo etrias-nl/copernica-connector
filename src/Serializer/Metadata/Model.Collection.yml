@@ -1,0 +1,9 @@
+Etrias\CopernicaConnector\Model\Collection:
+  access_type: public_method
+  exclusion_policy: ALL
+  properties:
+    id:
+      type: string
+      serialized_name: ID
+    name:
+      type: string

@@ -1,0 +1,10 @@
+Etrias\CopernicaConnector\Model\Template:
+  access_type: public_method
+  exclusion_policy: ALL
+  properties:
+    id:
+      type: string
+    name:
+      type: string
+    archived:
+      type: bool
